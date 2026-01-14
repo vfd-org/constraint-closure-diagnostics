@@ -71,7 +71,7 @@ This repository implements a **constraint-closure diagnostic framework**—a sys
 Verify that pre-computed metrics match paper values:
 
 ```bash
-git clone https://github.com/vfd-project/constraint-closure-diagnostics.git
+git clone https://github.com/vfd-org/constraint-closure-diagnostics.git
 cd constraint-closure-diagnostics
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -200,7 +200,7 @@ If referencing this work:
 ```
 Lee Smart. "A Constraint-Closure Diagnostic Framework with Application to
 RH-Motivated Spectral Structures." 2026.
-Software: https://github.com/vfd-project/constraint-closure-diagnostics
+Software: https://github.com/vfd-org/constraint-closure-diagnostics
 ```
 
 ---

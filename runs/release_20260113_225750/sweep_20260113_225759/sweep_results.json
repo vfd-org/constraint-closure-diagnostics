@@ -1,0 +1,311 @@
+{
+  "param1_name": "cell_count",
+  "param1_values": [
+    16,
+    32,
+    64
+  ],
+  "param2_name": "propagation_range",
+  "param2_values": [
+    1,
+    2,
+    3
+  ],
+  "max_level": "L4",
+  "results_grid": {
+    "16_1": {
+      "param1": 16,
+      "param2": 1,
+      "all_passed": true,
+      "max_level_passed": 4,
+      "total_residual": 7.221501206690583e-14,
+      "min_eigenvalue": 0.0,
+      "family_residuals": {
+        "EF": 5.396329383636734e-14,
+        "Symmetry": 1.8251718230538476e-14,
+        "Positivity": 0.0,
+        "Trace": 0.0
+      },
+      "gating_stop_reason": null,
+      "weyl_error": 4.2222039754202554e-16,
+      "torsion_error": 1.3068603061549809e-14
+    },
+    "16_2": {
+      "param1": 16,
+      "param2": 2,
+      "all_passed": true,
+      "max_level_passed": 4,
+      "total_residual": 7.221501206690583e-14,
+      "min_eigenvalue": 0.0,
+      "family_residuals": {
+        "EF": 5.396329383636734e-14,
+        "Symmetry": 1.8251718230538476e-14,
+        "Positivity": 0.0,
+        "Trace": 0.0
+      },
+      "gating_stop_reason": null,
+      "weyl_error": 4.2222039754202554e-16,
+      "torsion_error": 1.3068603061549809e-14
+    },
+    "16_3": {
+      "param1": 16,
+      "param2": 3,
+      "all_passed": true,
+      "max_level_passed": 4,
+      "total_residual": 7.272959162752574e-14,
+      "min_eigenvalue": 0.0,
+      "family_residuals": {
+        "EF": 5.396329383636734e-14,
+        "Symmetry": 1.8251718230538476e-14,
+        "Positivity": 0.0,
+        "Trace": 5.145795606199138e-16
+      },
+      "gating_stop_reason": null,
+      "weyl_error": 4.2222039754202554e-16,
+      "torsion_error": 1.3068603061549809e-14
+    },
+    "32_1": {
+      "param1": 32,
+      "param2": 1,
+      "all_passed": true,
+      "max_level_passed": 4,
+      "total_residual": 7.231846216913358e-14,
+      "min_eigenvalue": 0.0,
+      "family_residuals": {
+        "EF": 5.391871420197841e-14,
+        "Symmetry": 1.8251718230538476e-14,
+        "Positivity": 0.0,
+        "Trace": 1.4802973661668753e-16
+      },
+      "gating_stop_reason": null,
+      "weyl_error": 4.1107548894479267e-16,
+      "torsion_error": 1.3068603061549809e-14
+    },
+    "32_2": {
+      "param1": 32,
+      "param2": 2,
+      "all_passed": true,
+      "max_level_passed": 4,
+      "total_residual": 7.217043243251689e-14,
+      "min_eigenvalue": 0.0,
+      "family_residuals": {
+        "EF": 5.391871420197841e-14,
+        "Symmetry": 1.8251718230538476e-14,
+        "Positivity": 0.0,
+        "Trace": 0.0
+      },
+      "gating_stop_reason": null,
+      "weyl_error": 4.1107548894479267e-16,
+      "torsion_error": 1.3068603061549809e-14
+    },
+    "32_3": {
+      "param1": 32,
+      "param2": 3,
+      "all_passed": true,
+      "max_level_passed": 4,
+      "total_residual": 7.251583515128916e-14,
+      "min_eigenvalue": 0.0,
+      "family_residuals": {
+        "EF": 5.391871420197841e-14,
+        "Symmetry": 1.8251718230538476e-14,
+        "Positivity": 0.0,
+        "Trace": 3.454027187722709e-16
+      },
+      "gating_stop_reason": null,
+      "weyl_error": 4.1107548894479267e-16,
+      "torsion_error": 1.3068603061549809e-14
+    },
+    "64_1": {
+      "param1": 64,
+      "param2": 1,
+      "all_passed": true,
+      "max_level_passed": 4,
+      "total_residual": 7.216230091928262e-14,
+      "min_eigenvalue": 0.0,
+      "family_residuals": {
+        "EF": 5.3910582688744135e-14,
+        "Symmetry": 1.8251718230538476e-14,
+        "Positivity": 0.0,
+        "Trace": 0.0
+      },
+      "gating_stop_reason": null,
+      "weyl_error": 4.0904261063622417e-16,
+      "torsion_error": 1.3068603061549809e-14
+    },
+    "64_2": {
+      "param1": 64,
+      "param2": 2,
+      "all_passed": true,
+      "max_level_passed": 4,
+      "total_residual": 7.216230091928262e-14,
+      "min_eigenvalue": 0.0,
+      "family_residuals": {
+        "EF": 5.3910582688744135e-14,
+        "Symmetry": 1.8251718230538476e-14,
+        "Positivity": 0.0,
+        "Trace": 0.0
+      },
+      "gating_stop_reason": null,
+      "weyl_error": 4.0904261063622417e-16,
+      "torsion_error": 1.3068603061549809e-14
+    },
+    "64_3": {
+      "param1": 64,
+      "param2": 3,
+      "all_passed": true,
+      "max_level_passed": 4,
+      "total_residual": 7.216230091928262e-14,
+      "min_eigenvalue": 0.0,
+      "family_residuals": {
+        "EF": 5.3910582688744135e-14,
+        "Symmetry": 1.8251718230538476e-14,
+        "Positivity": 0.0,
+        "Trace": 0.0
+      },
+      "gating_stop_reason": null,
+      "weyl_error": 4.0904261063622417e-16,
+      "torsion_error": 1.3068603061549809e-14
+    }
+  },
+  "grids": {
+    "max_level_passed": [
+      [
+        4,
+        4,
+        4
+      ],
+      [
+        4,
+        4,
+        4
+      ],
+      [
+        4,
+        4,
+        4
+      ]
+    ],
+    "total_residual": [
+      [
+        7.221501206690583e-14,
+        7.221501206690583e-14,
+        7.272959162752574e-14
+      ],
+      [
+        7.231846216913358e-14,
+        7.217043243251689e-14,
+        7.251583515128916e-14
+      ],
+      [
+        7.216230091928262e-14,
+        7.216230091928262e-14,
+        7.216230091928262e-14
+      ]
+    ],
+    "min_eigenvalue": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "family_residuals": {
+      "EF": [
+        [
+          5.396329383636734e-14,
+          5.396329383636734e-14,
+          5.396329383636734e-14
+        ],
+        [
+          5.391871420197841e-14,
+          5.391871420197841e-14,
+          5.391871420197841e-14
+        ],
+        [
+          5.3910582688744135e-14,
+          5.3910582688744135e-14,
+          5.3910582688744135e-14
+        ]
+      ],
+      "Symmetry": [
+        [
+          1.8251718230538476e-14,
+          1.8251718230538476e-14,
+          1.8251718230538476e-14
+        ],
+        [
+          1.8251718230538476e-14,
+          1.8251718230538476e-14,
+          1.8251718230538476e-14
+        ],
+        [
+          1.8251718230538476e-14,
+          1.8251718230538476e-14,
+          1.8251718230538476e-14
+        ]
+      ],
+      "Positivity": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "Trace": [
+        [
+          0.0,
+          0.0,
+          5.145795606199138e-16
+        ],
+        [
+          1.4802973661668753e-16,
+          0.0,
+          3.454027187722709e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "stop_reason": [
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  "timestamp": "2026-01-13T22:57:59.466751"
+}

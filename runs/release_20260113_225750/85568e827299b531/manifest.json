@@ -1,0 +1,137 @@
+{
+  "run_hash": "85568e827299b531",
+  "run_name": "bridge_run_20260113_225750",
+  "timestamp": "2026-01-13T22:57:58.673526",
+  "git_commit": null,
+  "package_versions": {
+    "numpy": "1.24.4",
+    "scipy": "1.10.1",
+    "pandas": "2.0.3",
+    "plotly": "6.5.1",
+    "dash": "3.3.0",
+    "pydantic": "2.10.6",
+    "networkx": "3.1"
+  },
+  "tolerances": {
+    "closure_ladder": 1e-08,
+    "torsion_order": 1e-12,
+    "weyl_relation": 1e-10,
+    "projector": 1e-12,
+    "kernel_nonneg": 1e-10
+  },
+  "closure_results": {
+    "max_level_checked": "L4",
+    "max_level_passed": "L4",
+    "gating_stop_reason": null,
+    "all_passed": true,
+    "residuals_per_level": {
+      "L0": {
+        "total_residual": 0,
+        "satisfied": true,
+        "family_residuals": {}
+      },
+      "L1": {
+        "total_residual": 1.3477645672186034e-14,
+        "satisfied": true,
+        "family_residuals": {
+          "EF": 1.3477645672186034e-14
+        }
+      },
+      "L2": {
+        "total_residual": 1.9561551749032194e-14,
+        "satisfied": true,
+        "family_residuals": {
+          "EF": 1.3477645672186034e-14,
+          "Symmetry": 6.083906076846159e-15
+        }
+      },
+      "L3": {
+        "total_residual": 1.9561551749032194e-14,
+        "satisfied": true,
+        "family_residuals": {
+          "EF": 1.3477645672186034e-14,
+          "Symmetry": 6.083906076846159e-15,
+          "Positivity": 0.0
+        }
+      },
+      "L4": {
+        "total_residual": 1.9561551749032194e-14,
+        "satisfied": true,
+        "family_residuals": {
+          "EF": 1.3477645672186034e-14,
+          "Symmetry": 6.083906076846159e-15,
+          "Positivity": 0.0,
+          "Trace": 0.0
+        }
+      }
+    }
+  },
+  "constraint_families": {
+    "EF": {
+      "checked": 2,
+      "passed": 2
+    },
+    "Symmetry": {
+      "checked": 3,
+      "passed": 3
+    },
+    "Positivity": {
+      "checked": 3,
+      "passed": 3
+    },
+    "Trace": {
+      "checked": 3,
+      "passed": 3
+    }
+  },
+  "figures": [
+    "fig01_residual_ladder.png",
+    "fig03_constraint_waterfall.png",
+    "fig04_spectrum_histogram.png",
+    "fig05_collapse_geometry.png",
+    "fig06_zero_overlay.png",
+    "fig07_falsification.png"
+  ],
+  "bridge": {
+    "mode": "BA",
+    "bn_modes": [
+      "BN1",
+      "BN2",
+      "BN3"
+    ],
+    "metrics": {
+      "overlay": {
+        "n_compared": 5000,
+        "mae": 989.5176557969631,
+        "rmse": 1098.0258683723355,
+        "max_error": 1757.1343118859718,
+        "mean_residual": -989.5176557969631,
+        "std_residual": 475.93656770719355,
+        "correlation": 0.9999445517627977,
+        "rank_correlation": 0.9997310220466599,
+        "mean_beta": 0.5,
+        "beta_deviation": 0.0
+      },
+      "spacing": {
+        "ks_statistic": 0.44948989797959593,
+        "ks_pvalue": 0.0,
+        "wasserstein_distance": 0.24777562924885838,
+        "mean_proj_spacing": 0.7354926358102276,
+        "mean_ref_spacing": 1.0869628472013533,
+        "std_proj_spacing": 0.1186692465003723,
+        "std_ref_spacing": 0.48950916441263614
+      }
+    },
+    "falsification_ratios": {
+      "BN1_ratio": 1.5011891832990705,
+      "BN2_ratio": 2.1814686705966104,
+      "BN3_ratio": 200001.00000000017
+    },
+    "all_negations_worse": true,
+    "reference_data": {
+      "zeros_source": "mpmath_compute",
+      "cached": true,
+      "count": 5000
+    }
+  }
+}

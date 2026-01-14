@@ -1,0 +1,53 @@
+{
+  "run_name": "bridge_run_20260113_225750",
+  "seed": 42,
+  "vfd": {
+    "torsion_order": 12,
+    "orbit_count": 8,
+    "orbit_size": 12,
+    "internal_dim": 96,
+    "cell_count": 64,
+    "kernel_type": "K_can",
+    "kernel_params": {},
+    "local_propagation_L": 3,
+    "enable_geometry_model_claims": false,
+    "periodic_boundary": true
+  },
+  "prime_field": {
+    "max_transport_length": 500,
+    "prime_definition": "irreducible_transport_mode",
+    "factorization_search_depth": 6,
+    "graph_max_nodes": 2000,
+    "emit_non_ufd_examples": true
+  },
+  "stability": {
+    "spectrum_method": "eigsh",
+    "spectrum_k": 256,
+    "probe_family": "finite_support_pure_degree",
+    "probe_count": 2000,
+    "probe_support_radius": 3,
+    "stability_metric": "quadratic_form_nonnegativity"
+  },
+  "bridge": {
+    "bridge_mode": "BA",
+    "projection_map": "spectral_to_zero_like",
+    "projection_params": {},
+    "fit_for_alignment": false,
+    "allow_scale_only": true,
+    "max_zeros_compare": 5000
+  },
+  "reference": {
+    "zeta_zero_source": "mpmath_compute",
+    "primes_source": "sympy_generate",
+    "max_reference_zeros": 5000,
+    "max_reference_primes": 200000
+  },
+  "output": {
+    "out_dir": "runs/",
+    "export_bundle": true,
+    "save_parquet": true,
+    "save_figures": true,
+    "figure_format": "png",
+    "cache_enabled": true
+  }
+}

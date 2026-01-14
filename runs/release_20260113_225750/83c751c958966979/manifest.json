@@ -1,0 +1,93 @@
+{
+  "run_hash": "83c751c958966979",
+  "run_name": "standard_run_20260113_225750",
+  "timestamp": "2026-01-13T22:57:53.647151",
+  "git_commit": null,
+  "package_versions": {
+    "numpy": "1.24.4",
+    "scipy": "1.10.1",
+    "pandas": "2.0.3",
+    "plotly": "6.5.1",
+    "dash": "3.3.0",
+    "pydantic": "2.10.6",
+    "networkx": "3.1"
+  },
+  "tolerances": {
+    "closure_ladder": 1e-08,
+    "torsion_order": 1e-12,
+    "weyl_relation": 1e-10,
+    "projector": 1e-12,
+    "kernel_nonneg": 1e-10
+  },
+  "closure_results": {
+    "max_level_checked": "L4",
+    "max_level_passed": "L4",
+    "gating_stop_reason": null,
+    "all_passed": true,
+    "residuals_per_level": {
+      "L0": {
+        "total_residual": 0,
+        "satisfied": true,
+        "family_residuals": {}
+      },
+      "L1": {
+        "total_residual": 1.3477645672186034e-14,
+        "satisfied": true,
+        "family_residuals": {
+          "EF": 1.3477645672186034e-14
+        }
+      },
+      "L2": {
+        "total_residual": 1.9561551749032194e-14,
+        "satisfied": true,
+        "family_residuals": {
+          "EF": 1.3477645672186034e-14,
+          "Symmetry": 6.083906076846159e-15
+        }
+      },
+      "L3": {
+        "total_residual": 1.9561551749032194e-14,
+        "satisfied": true,
+        "family_residuals": {
+          "EF": 1.3477645672186034e-14,
+          "Symmetry": 6.083906076846159e-15,
+          "Positivity": 0.0
+        }
+      },
+      "L4": {
+        "total_residual": 1.9561551749032194e-14,
+        "satisfied": true,
+        "family_residuals": {
+          "EF": 1.3477645672186034e-14,
+          "Symmetry": 6.083906076846159e-15,
+          "Positivity": 0.0,
+          "Trace": 0.0
+        }
+      }
+    }
+  },
+  "constraint_families": {
+    "EF": {
+      "checked": 2,
+      "passed": 2
+    },
+    "Symmetry": {
+      "checked": 3,
+      "passed": 3
+    },
+    "Positivity": {
+      "checked": 3,
+      "passed": 3
+    },
+    "Trace": {
+      "checked": 3,
+      "passed": 3
+    }
+  },
+  "figures": [
+    "fig01_residual_ladder.png",
+    "fig03_constraint_waterfall.png",
+    "fig04_spectrum_histogram.png",
+    "fig05_collapse_geometry.png"
+  ]
+}
